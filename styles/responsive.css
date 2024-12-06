@@ -1,0 +1,34 @@
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-content{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+        order: 2;
+    }
+    .banner-img{
+        width: 100%;
+        order: 1;   
+    }
+    .popular-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-section{
+        flex-direction: column;
+        gap: 15px;
+    
+    }
+    .feature-img{
+        width: 100%;
+    }
+    .feature-content{
+        width: 100%;
+    }
+}
